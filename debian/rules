@@ -1,0 +1,2 @@
+%:
+	dh $@ -v --buildsystem=cmake --parallel

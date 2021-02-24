@@ -1,0 +1,12 @@
+Source: rx-cpp
+Section: misc
+Priority: extra
+Maintainer: SwarmFarm Team <developer1@swarmfarm.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, g++
+Homepage:
+Standards-Version: 3.9.2
+
+Package: rx-cpp-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Reactive X C++ bindings
